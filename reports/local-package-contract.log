@@ -1,0 +1,19 @@
+Official pinned formalization metadata contract: PASS
+Source-based provenance shape validated by official contract
+Official pinned Comparator configuration contract: PASS
+Theorem names: ['Falmagne.falmagne_blockMarschak']
+Definition names: ['Falmagne.IsRanking', 'Falmagne.lowerContour', 'Falmagne.rankingChoice', 'Falmagne.RankingLaw', 'Falmagne.IsRankingLaw', 'Falmagne.IsChoiceRule', 'Falmagne.Represents', 'EconomicsNextProof.upperMobius', 'Falmagne.blockMarschak', 'Falmagne.BlockMarschakNonnegative', 'Falmagne.RandomUtilityRepresentable']
+Root unique licence file: LICENSE
+SPDX recognition not run: Ruby/Licensee unavailable
+Official pinned source header/line scan of explicit candidate source snapshot: PASS
+{
+  "schema_version": 1,
+  "module_required": true,
+  "maximum_lines": 10000,
+  "files_checked": 13
+}
+Challenge bytes: 3029
+Challenge lines: 84
+Workflow SHA pairing manually verified: 65f0154ed776cd26c224254aa57b379137f28b0d
+No official prepare/registration/full-profile run performed
+Root LICENSE bytes exactly match canonical Mathlib LICENSE at pinned commit065356127b1dc0016f66b7283ce0ce2c4055aa55 (cmp exit0); automated Licensee SPDX recognition remains unrun.

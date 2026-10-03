@@ -1,0 +1,93 @@
+version: "v0.4"
+project:
+  name: "Falmagne–Block–Marschak Random-Utility Characterization"
+  description: >-
+    A full constructive formalization of the Falmagne–Block–Marschak theorem
+    for any finite nonempty alternative set, without a cardinality bound.
+    A normalized stochastic choice rule on all nonempty menus is generated
+    by a single probability distribution over complete strict rankings if
+    and only if all Block–Marschak alternating-sum coefficients are nonnegative.
+    The proof derives Boolean-lattice flow conservation, constructs a finite
+    ranking mixture by positive-path subtraction, and proves exact lower-contour
+    probability identities by Möbius inversion. Compiled adversarial examples
+    show that regularity alone is insufficient.
+  authors:
+    - "Arthur Freitas Ramos"
+    - "David Barros Hulak"
+    - "Ruy Jose Guerra Barretto de Queiroz"
+  responsible_maintainers:
+    - "Arthur Freitas Ramos"
+  license: "Apache-2.0"
+classification:
+  arxiv: ["econ.TH", "math.CO"]
+  msc2020: ["91B08", "91B16"]
+sources:
+  - title: "A representation theorem for finite random scale systems"
+    authors: ["Jean-Claude Falmagne"]
+    type: paper
+    id: "https://doi.org/10.1016/0022-2496(78)90048-2"
+    location: "Journal of Mathematical Psychology 18 (1978), 52–72"
+    relationship: formalizes
+    note: "The classical full finite random-utility representation theorem; no mathematical novelty claim."
+    author_endorsement: not-contacted
+  - title: "A short proof of a theorem of Falmagne"
+    authors: ["Samuel Fiorini"]
+    type: paper
+    id: "https://doi.org/10.1016/j.jmp.2003.11.003"
+    relationship: adapts
+    note: "Boolean Möbius inversion and the subset-network flow approach; the flow decomposition is proved locally."
+    author_endorsement: not-contacted
+  - title: "Adjacencies on random ordering polytopes and flow polytopes"
+    authors: ["Jean-Paul Doignon", "Kota Saito"]
+    type: paper
+    id: "https://saito.caltech.edu/documents/29716/Adjacencies_arxiv.pdf"
+    relationship: background
+    note: "Primary research exposition, section 3 equations 13–21 and preceding acyclic flow theorem."
+    author_endorsement: not-contacted
+status:
+  scope: >-
+    The full finite arbitrary-cardinality strict-ranking characterization on all
+    nonempty menus. Rankings are complete Nodup best-to-worst lists and the same
+    finitely supported nonnegative mass-one law reproduces every menu. The empty
+    menu is zero bookkeeping. This is the standard no-ties random-utility scope,
+    not unrestricted menu-dependent tie breaking. No representation or flow
+    decomposition premise is included in the theorem assumptions.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: ["propext", "Classical.choice", "Quot.sound"]
+automation:
+  methods:
+    - method: agent
+      models: ["GPT-6.1 Sol, High reasoning"]
+      framework: "Lean 4 and mathlib"
+      tool_setup: "AI-assisted proof construction, kernel-checked tactics, independent source/statement and implementation review, and compiled adversarial examples."
+  spend_usd: "not tracked"
+  notes: >-
+    The human project owner selected and authorized the target. Mathematical
+    research, Lean proof construction and separate reviews were AI-assisted.
+    All proved declarations are checked by Lean; the standalone Challenge's
+    single deliberate theorem hole is excluded from proof admission counts.
+fidelity:
+  divergences: >-
+    None in the main finite strict-ranking theorem. Equivalent complete Nodup
+    lists represent strict rankings; probability laws use finitely supported
+    real weights. Empty-menu and off-menu zero values are explicit bookkeeping.
+    Singleton alternatives are included. The constructive local flow proof
+    replaces a citation to general flow decomposition.
+review:
+  status: "Independent AI-assisted mathematical/source and implementation reviews passed; exact official-toolchain local kernel and axiom checks passed. Comparator and official hosted execution remain separately unverified."
+  notes: >-
+    The exact statement was reconciled with primary sources independently from
+    proof construction. Review checked arbitrary cardinality, full menu domain,
+    normalization, strict ranking interpretation, coefficient indexing, absence
+    of hidden conclusion assumptions, Challenge/Solution separation, and standard
+    axiom dependencies. No human-review or registry-acceptance claim is made.
+alignment:
+  namespace: "Falmagne"
+  statements:
+    - source: "Falmagne theorem; Doignon–Saito section 3 equations 16–17"
+      lean: "Falmagne.falmagne_blockMarschak"
+      module: "Solution"
+      status: proved
+      note: "Exact full finite equivalence, with a genuine constructed ranking law and inclusive superset coefficients."
+acknowledgements: "Lean, mathlib, the classical theorem authors, and the source-based Boolean Möbius and flow proof literature."

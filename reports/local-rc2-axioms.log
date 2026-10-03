@@ -1,0 +1,3 @@
+'Falmagne.falmagne_blockMarschak' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Falmagne.randomUtility_necessary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Falmagne.randomUtility_sufficient' depends on axioms: [propext, Classical.choice, Quot.sound]

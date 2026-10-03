@@ -1,0 +1,38 @@
+con-ron: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)
+con-ron: 2 declarations hoisted ahead of the pinned Nat operations they ground: Nat.mul._f, Nat.mul
+con-ron: parse done: 15709 fold records — 15701 declarations after the 8 built-in prelude records (8 stream copies of prelude records dropped) t=0.470s (parse 0.470s)
+con-ron: install 0/15709 basis t=0.470s
+con-ron: install 1000/15709 thm Nat.dvd_refl t=2.993s
+con-ron: install 2000/15709 thm AddGroupWithOne.sub_eq_add_neg t=3.111s
+con-ron: install 3000/15709 def Nat.instMonoidWithZero t=3.271s
+con-ron: install 4000/15709 thm Rat.divInt_num_den t=3.402s
+con-ron: install 5000/15709 thm Lean.Grind.CommRing.Mon.brecOn.eq t=3.529s
+con-ron: install 6000/15709 def Int.Internal.Linear.Poly.noConfusion t=3.714s
+con-ron: install 7000/15709 thm Multiset.Nodup.powerset t=3.934s
+con-ron: install 8000/15709 thm IsCompl.inf_left_le_of_le_sup_right t=4.078s
+con-ron: install 9000/15709 thm Int.ediv_lt_of_lt_mul t=4.173s
+con-ron: install 10000/15709 def Finsupp.instAdd t=4.283s
+con-ron: install 11000/15709 def Classical.arbitrary t=4.578s
+con-ron: install 12000/15709 def instPreorderENat t=4.731s
+con-ron: install 13000/15709 thm Module.Basis.extend._proof_2 t=4.866s
+con-ron: install 14000/15709 thm Std.Trichotomous.rel_or_eq_or_rel_swap t=5.319s
+con-ron: install 15000/15709 def Ordinal.enumOrd t=5.479s
+con-ron: install done: 15709/15709 declarations installed, 15192 checks pending t=11.487s (install 11.017s)
+con-ron: check 1000/15192 theorem Int.ofNat_mul_negOfNat t=11.612s
+con-ron: check 2000/15192 theorem inv_ne_zero t=11.731s
+con-ron: check 3000/15192 theorem Pi.nonUnitalNonAssocSemiring._proof_1 t=11.862s
+con-ron: check 4000/15192 definition EquivLike.toFunLike t=12.079s
+con-ron: check 5000/15192 definition _private.Mathlib.Basic.Real.Basic.0.Real.ext_cauchy_iff.match_1_1 t=12.397s
+con-ron: check 6000/15192 theorem Lean.Grind.OrderedAdd.neg_le_iff t=12.688s
+con-ron: check 7000/15192 theorem le_bot_iff t=12.837s
+con-ron: check 8000/15192 theorem CauSeq.add_pos t=13.002s
+con-ron: check 9000/15192 definition SMulWithZero.toSMulZeroClass t=13.296s
+con-ron: check 10000/15192 definition DistribSMul.toAddMonoidHom t=13.506s
+con-ron: check 11000/15192 definition Equiv.Set.imageOfInjOn t=13.675s
+con-ron: check 12000/15192 theorem _private.Mathlib.Data.Finsupp.Defs.0.Finsupp.embDomain_apply._proof_1_2 t=13.864s
+con-ron: check 13000/15192 theorem Finsupp.linearEquivFunOnFinite._proof_2 t=14.175s
+con-ron: check 14000/15192 theorem Ordinal.addMonoidWithOne._proof_2 t=14.426s
+con-ron: check 15000/15192 theorem EquivLike.injective_comp._simp_1 t=14.632s
+con-ron: check done: 15192/15192 t=14.705s (check 3.218s)
+con-ron: done: parse 0.470s, install 11.017s, check 3.218s, 4 workers t=14.705s
+con-ron: accepted 15679 declarations (--verified)

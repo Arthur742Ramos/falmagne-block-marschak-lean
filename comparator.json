@@ -1,0 +1,8 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": ["Falmagne.falmagne_blockMarschak"],
+  "definition_names": ["Falmagne.IsRanking", "Falmagne.lowerContour", "Falmagne.rankingChoice", "Falmagne.RankingLaw", "Falmagne.IsRankingLaw", "Falmagne.IsChoiceRule", "Falmagne.Represents", "EconomicsNextProof.upperMobius", "Falmagne.blockMarschak", "Falmagne.BlockMarschakNonnegative", "Falmagne.RandomUtilityRepresentable"],
+  "permitted_axioms": ["propext", "Quot.sound", "Classical.choice"],
+  "enable_nanoda": true
+}

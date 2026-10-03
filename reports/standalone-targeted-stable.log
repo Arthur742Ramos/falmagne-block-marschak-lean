@@ -1,0 +1,117 @@
+Solution.lean:77:8: warning: automatically included section variable(s) unused in theorem `Falmagne.mem_lowerContour`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Solution.lean:85:0: warning: automatically included section variable(s) unused in theorem `Falmagne.rankingChoice_nonneg`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Solution.lean:90:0: warning: automatically included section variable(s) unused in theorem `Falmagne.rankingChoice_eq_zero_of_not_mem`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Solution.lean:93:0: warning: automatically included section variable(s) unused in theorem `Falmagne.rankingChoice_eq_one_iff`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Solution.lean:97:0: warning: automatically included section variable(s) unused in theorem `Falmagne.rankingChoice_ne_zero_iff`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Solution.lean:290:0: warning: automatically included section variable(s) unused in theorem `Falmagne.rankingEdge_nonneg`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Solution.lean:295:8: warning: automatically included section variable(s) unused in theorem `Falmagne.rankingEdge_eq_zero_of_not_mem`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Solution.lean:307:0: warning: automatically included section variable(s) unused in theorem `Falmagne.lawFlow_off_menu`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Solution.lean:363:8: warning: automatically included section variable(s) unused in theorem `Falmagne.pathFlow_nil`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Solution.lean:364:8: warning: automatically included section variable(s) unused in theorem `Falmagne.pathFlow_cons`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Solution.lean:367:0: warning: automatically included section variable(s) unused in theorem `Falmagne.outflow_add`:
+  [Fintype X]
+  [DecidableEq X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] [DecidableEq X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Solution.lean:373:0: warning: automatically included section variable(s) unused in theorem `Falmagne.outflow_sub`:
+  [Fintype X]
+  [DecidableEq X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] [DecidableEq X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Solution.lean:379:0: warning: automatically included section variable(s) unused in theorem `Falmagne.outflow_mul`:
+  [Fintype X]
+  [DecidableEq X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] [DecidableEq X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Solution.lean:387:0: warning: automatically included section variable(s) unused in theorem `Falmagne.outflow_unitEdge`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Solution.lean:430:0: warning: automatically included section variable(s) unused in theorem `Falmagne.pathFlow_zero_of_not_mem`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Solution.lean:841:0: warning: automatically included section variable(s) unused in theorem `Falmagne.lowerContour_cons_self`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Solution.lean:841:30: warning: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Solution.lean:846:0: warning: automatically included section variable(s) unused in theorem `Falmagne.lowerContour_cons_of_ne`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Solution.lean:977:0: warning: automatically included section variable(s) unused in theorem `Falmagne.randomUtility_necessary`:
+  [Nonempty X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`

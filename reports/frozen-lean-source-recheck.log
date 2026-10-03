@@ -1,0 +1,13 @@
+Solution.lean: OK
+Challenge.lean: OK
+EconomicsNextProof.lean: OK
+EconomicsNextProof/Basic.lean: OK
+EconomicsNextProof/ChoiceMobius.lean: OK
+EconomicsNextProof/Conservation.lean: OK
+EconomicsNextProof/Examples.lean: OK
+EconomicsNextProof/Falmagne.lean: OK
+EconomicsNextProof/Flow.lean: OK
+EconomicsNextProof/Mobius.lean: OK
+EconomicsNextProof/Path.lean: OK
+EconomicsNextProof/PathChoice.lean: OK
+EconomicsNextProof/Representation.lean: OK

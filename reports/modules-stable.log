@@ -1,0 +1,128 @@
+⚠ [3096/3105] Built EconomicsNextProof.Basic (8.2s)
+warning: EconomicsNextProof/Basic.lean:62:8: automatically included section variable(s) unused in theorem `Falmagne.mem_lowerContour`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EconomicsNextProof/Basic.lean:70:0: automatically included section variable(s) unused in theorem `Falmagne.rankingChoice_nonneg`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EconomicsNextProof/Basic.lean:75:0: automatically included section variable(s) unused in theorem `Falmagne.rankingChoice_eq_zero_of_not_mem`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EconomicsNextProof/Basic.lean:78:0: automatically included section variable(s) unused in theorem `Falmagne.rankingChoice_eq_one_iff`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EconomicsNextProof/Basic.lean:82:0: automatically included section variable(s) unused in theorem `Falmagne.rankingChoice_ne_zero_iff`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3097/3105] Built EconomicsNextProof.Path (8.4s)
+warning: EconomicsNextProof/Path.lean:30:8: automatically included section variable(s) unused in theorem `Falmagne.pathFlow_nil`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EconomicsNextProof/Path.lean:31:8: automatically included section variable(s) unused in theorem `Falmagne.pathFlow_cons`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EconomicsNextProof/Path.lean:34:0: automatically included section variable(s) unused in theorem `Falmagne.outflow_add`:
+  [Fintype X]
+  [DecidableEq X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] [DecidableEq X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EconomicsNextProof/Path.lean:40:0: automatically included section variable(s) unused in theorem `Falmagne.outflow_sub`:
+  [Fintype X]
+  [DecidableEq X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] [DecidableEq X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EconomicsNextProof/Path.lean:46:0: automatically included section variable(s) unused in theorem `Falmagne.outflow_mul`:
+  [Fintype X]
+  [DecidableEq X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] [DecidableEq X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EconomicsNextProof/Path.lean:54:0: automatically included section variable(s) unused in theorem `Falmagne.outflow_unitEdge`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EconomicsNextProof/Path.lean:97:0: automatically included section variable(s) unused in theorem `Falmagne.pathFlow_zero_of_not_mem`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [3098/3105] Built EconomicsNextProof.Mobius (9.6s)
+⚠ [3099/3105] Built EconomicsNextProof.Representation (4.5s)
+warning: EconomicsNextProof/Representation.lean:16:0: automatically included section variable(s) unused in theorem `Falmagne.rankingEdge_nonneg`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EconomicsNextProof/Representation.lean:21:8: automatically included section variable(s) unused in theorem `Falmagne.rankingEdge_eq_zero_of_not_mem`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EconomicsNextProof/Representation.lean:33:0: automatically included section variable(s) unused in theorem `Falmagne.lawFlow_off_menu`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [3100/3105] Built EconomicsNextProof.Flow (4.5s)
+✔ [3101/3105] Built EconomicsNextProof.Conservation (4.4s)
+✔ [3102/3105] Built EconomicsNextProof.ChoiceMobius (3.2s)
+⚠ [3103/3105] Built EconomicsNextProof.PathChoice (3.3s)
+warning: EconomicsNextProof/PathChoice.lean:12:0: automatically included section variable(s) unused in theorem `Falmagne.lowerContour_cons_self`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: EconomicsNextProof/PathChoice.lean:12:30: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: EconomicsNextProof/PathChoice.lean:17:0: automatically included section variable(s) unused in theorem `Falmagne.lowerContour_cons_of_ne`:
+  [Fintype X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3104/3105] Built EconomicsNextProof.Falmagne (2.0s)
+warning: EconomicsNextProof/Falmagne.lean:36:0: automatically included section variable(s) unused in theorem `Falmagne.randomUtility_necessary`:
+  [Nonempty X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [3105/3105] Built EconomicsNextProof.Examples (4.3s)
+Build completed successfully (3105 jobs).

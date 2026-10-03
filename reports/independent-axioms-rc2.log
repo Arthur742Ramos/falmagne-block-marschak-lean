@@ -1,0 +1,8 @@
+theorem Falmagne.falmagne_blockMarschak.{u_1} : ∀ {X : Type u_1} [inst : Fintype X] [inst_1 : DecidableEq X]
+  [Nonempty X] {p : Finset X → X → ℝ},
+  Falmagne.IsChoiceRule p → (Falmagne.RandomUtilityRepresentable p ↔ Falmagne.BlockMarschakNonnegative p) :=
+fun {X} [Fintype X] [DecidableEq X] [Nonempty X] {p} hp =>
+  { mp := Falmagne.randomUtility_necessary, mpr := Falmagne.randomUtility_sufficient hp }
+'Falmagne.falmagne_blockMarschak' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Falmagne.randomUtility_sufficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Falmagne.flow_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
