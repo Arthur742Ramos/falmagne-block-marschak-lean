@@ -1,0 +1,35 @@
+Official pipeline pin:65f0154ed776cd26c224254aa57b379137f28b0d
+Source URL:https://github.com/PalomarRegistry/PalomarSubmission/blob/65f0154ed776cd26c224254aa57b379137f28b0d/scripts/verification_profile.py
+Source SHA256: 5990b4da4074cabb79dfb5c9c8c4dc75d8d409553b3e023627ec3b485e2d26e4
+HOSTED_PROFILE: palomar-standard-v1
+{
+  "schema_version": 1,
+  "id": "palomar-standard-v1",
+  "runner": {
+    "provider": "github-hosted",
+    "label": "ubuntu-24.04",
+    "architecture": "x86_64"
+  },
+  "limits": {
+    "job_timeout_minutes": 350,
+    "execution_budget_seconds": 19800,
+    "minimum_workspace_free_bytes": 21474836480,
+    "tasks_max": 32768,
+    "open_files_max": 1048576,
+    "file_size_max_bytes": 1099511627776,
+    "memory_high_percent": 95,
+    "memory_max_percent": 98,
+    "minimum_host_memory_bytes": 15032385536
+  },
+  "trusted_tools": {
+    "toolchain_floor": "v4.35.0-rc2",
+    "bwrap_source_tag": "v0.12.0"
+  },
+  "cache_policy": "fresh submitted .lake state; pinned Mathlib cache artifacts when available"
+}
+Primary source line24: HOSTED_PROFILE = "palomar-standard-v1"
+Primary source line41:         if not re.fullmatch(r"palomar-[a-z0-9-]+-v\d+", identifier) or identifier == HOSTED_PROFILE:
+Primary source line59:     if catalogue["default"] != HOSTED_PROFILE and catalogue["default"] not in catalogue["profiles"]:
+Primary source line118:     if identifier != HOSTED_PROFILE:
+Result:explicit standard profile accepted without catalogue mutation
+No remote runner launched; actual future host capacity/sysctl remains unverified

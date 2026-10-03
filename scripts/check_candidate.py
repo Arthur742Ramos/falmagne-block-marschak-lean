@@ -37,6 +37,14 @@ assert set(c['permitted_axioms']) == {'propext','Quot.sound','Classical.choice'}
 w = (root/'.github/workflows/palomar.yml').read_text()
 pin='65f0154ed776cd26c224254aa57b379137f28b0d'
 assert '/submission.yml@'+pin in w and 'pipeline_commit: '+pin in w
+assert 'execution_profile: palomar-standard-v1' in w
+assert re.fullmatch('[0-9a-z]{12}', re.search(r'request_id:\s*(\S+)', w).group(1))
+assert 'approve_binary_scoped_apparmor' in w
+r = (root/'.github/workflows/palomar-render.yml').read_text()
+assert 'DISPATCHED_COMMIT: ${{ github.sha }}' in r
+assert '4ac34e136d44d285147139fd657faa4758620bc3f9a9300f884a6cf57066b0cd' in r
+assert '9f8096e40b31715b1d8d5997f15a0bd832f7e37d' in r
+assert 'approve_binary_scoped_apparmor' in r
 for p in json.loads((root/'lake-manifest.json').read_text())['packages']:
     if p.get('type') == 'git':
         assert p['url'].startswith('https://github.com/'), p
